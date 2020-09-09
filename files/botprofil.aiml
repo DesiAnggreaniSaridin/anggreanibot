@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+   
+	<!-- insert your AIML categories here -->
+	 <category>
+        <pattern>Hy</pattern>
+        <template>Hy Juga, Kenapa???</template>
+    </category>
+     <category>
+        <pattern>Assalamualaikum wr wb</pattern>
+        <template>Waalaikumsalam wr wb</template>
+    </category>
+    <category>
+        <pattern>bagaimana kabarmu</pattern>
+        <template>
+            <random>
+                <li>Alhamdulillah Baik</li>
+                <li>Sedikit Memburuk</li>
+                <li>Saya sedang sakit saat ini</li>
+                <li>Saya Happy *_*</li>
+            </random>
+        </template> 
+    </category>
+</aiml>
